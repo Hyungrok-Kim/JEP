@@ -46,3 +46,5 @@ from ortools.linear_solver import pywraplp
 와 같은 **Microsoft Visual C++ 2019 compiler에 의존**하는 모듈들이 문제가 생길 수 있다.   
 그럼 Microsoft Visual C++ 2019 compiler를 다운받으면 정상적으로 import가 가능해진다.
 
+* 참고로 Jython은 Python 2.7 version 이후로 업데이트가 없기 때문에 numpy, pandas 등 외부 모듈 사용에 제한이 있음.
+
